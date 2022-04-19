@@ -157,7 +157,7 @@ async def cathcer(message: types.Message):
 
     except Exception as ex:
         pass
-        # await bot.send_message(chat_id=1095119526,
+        # await bot.send_message(chat_id=12345, # Ваш ID для получения инфы об ошибках
         #                        text=ex)
 
 
