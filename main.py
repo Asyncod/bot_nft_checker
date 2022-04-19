@@ -5,8 +5,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
-bot = Bot("5156736281:AAFtXAuMr_ThtnK7VmGDRPGMQ6DCPDZbdcA", parse_mode="HTML")
-# bot = Bot("5358139198:AAGC46EOWgnkT8XZYNcTE47vJoqROrAzOp4", parse_mode="HTML")
+bot = Bot("", parse_mode="HTML") # Токен бота
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 
